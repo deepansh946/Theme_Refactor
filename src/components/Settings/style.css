@@ -1,0 +1,11 @@
+.dropdown {
+	margin: 0 5px;
+}
+
+.dropdown:first-of-type {
+	margin-left: 0;
+}
+
+#resetPassword {
+	width: 375px;
+}

@@ -1,0 +1,31 @@
+.dropdown-flag--group {
+	position: absolute;
+	width: 90px;
+	z-index: 99;
+	right: 0px;
+	top: 8px;
+	display: flex;
+	align-items: center;
+}
+
+.dropdown-flag--group .p-dropdown {
+	width: 74px !important;
+	padding-left: 2px;
+}
+
+.dropdown-flag--group .p-dropdown,
+.dropdown-flag--group .p-dropdown-label,
+.dropdown-flag--group .p-dropdown-trigger {
+	background-color: #fff !important;
+	font-size: 12px;
+}
+
+.dropdown-flag--group .p-dropdown-trigger .pi {
+	line-height: 1.2;
+}
+
+.dropdown-flag--group img {
+	position: absolute;
+	width: 17px;
+	right: 45px;
+}

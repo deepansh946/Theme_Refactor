@@ -1,0 +1,18 @@
+.compose-message-form .p-float-label .p-inputtext {
+	width: 100%;
+}
+
+.compose-message-form .p-inputtext,
+.compose-message-form .p-inputtextarea {
+	background-color: #fff;
+}
+
+button.submit {
+	margin-top: 7px;
+	margin-right: 7px;
+}
+
+.p-dialog {
+	padding-left: 1em !important;
+	padding-right: 1em !important;
+}

@@ -1,0 +1,59 @@
+.form-group {
+	margin: 30px 0;
+}
+
+.form-group input {
+	width: 100%;
+	padding: 10px 5px;
+}
+
+.form-group input {
+	background: #fff;
+	border-color: transparent;
+	border-bottom: 2px solid #dcdcdc;
+	font-size: 18px !important;
+}
+
+.form-group input.invalid-field {
+	background: #ff000014;
+	border-bottom: 2px solid #ff000016;
+}
+
+.form-group .p-float-label input ~ label {
+	left: 0px;
+}
+
+/* State changes */
+
+.form-group .p-float-label input:enabled:focus,
+.form-group .p-float-label input:enabled:hover {
+	border-color: transparent;
+	border-bottom: 2px solid #64b5f6d6;
+	box-shadow: none;
+}
+
+.form-group .p-float-label input:enabled:focus {
+	background: #2196f340;
+}
+
+.form-group .p-float-label input:enabled:focus ~ label {
+	left: 0;
+}
+
+/* Password Meter */
+body .p-password-panel {
+	background-color: #fff;
+	box-shadow: none;
+	border: none;
+	padding: 0;
+}
+
+.p-password-panel .p-password-info {
+	color: #a9a9a9;
+	font-size: 12px;
+}
+
+/* Tooltip */
+.tooltip-btn > span {
+	margin-top: -5px !important;
+}

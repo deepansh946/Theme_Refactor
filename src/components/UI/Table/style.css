@@ -1,0 +1,75 @@
+.p-datatable-resizable .p-datatable-thead > tr > th,
+.p-datatable-wrapper {
+	overflow: visible !important;
+}
+
+.p-datatable .p-paginator-bottom {
+	padding: 15px;
+}
+
+.p-datatable-header,
+.p-datatable-footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #fff !important;
+	border-color: #e0e0e0 !important;
+}
+
+.p-datatable-row {
+	height: 50px !important;
+}
+
+/* Custom Classes */
+
+.table-search--box {
+	position: relative;
+}
+
+.table-search--box i {
+	position: absolute;
+	color: #222;
+	right: 10px;
+	top: 9px;
+	font-size: 12px;
+}
+
+.table-modal {
+	width: 400px;
+}
+
+@media only screen and (max-width: 435px) {
+	.table-modal {
+		width: 95%;
+	}
+}
+
+.expand-btn {
+	width: 50px;
+}
+
+/* Media Query */
+@media screen and (max-width: 768px) {
+	.p-datatable-header .p-multiselect {
+		width: 150px !important;
+	}
+
+	.p-datatable-tbody {
+		border: 1px solid #e0e0e0;
+	}
+
+	.table-search--box {
+		max-width: 150px;
+	}
+
+	.table-search--box input {
+		width: 100%;
+	}
+	.expand-btn {
+		background: #dcdcdc !important;
+		text-align: right !important;
+	}
+}
+
+@media screen and (max-width: 568px) {
+}

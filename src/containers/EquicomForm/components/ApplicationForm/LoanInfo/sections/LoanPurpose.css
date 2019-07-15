@@ -1,0 +1,14 @@
+.loanPurpose--error {
+	color: red;
+	display: inline;
+	margin-left: 10px;
+}
+
+@media only screen and (max-width: 442px) {
+	.loanPurpose--error {
+		margin-left: 0;
+		display: block;
+		margin-top: -15px;
+		margin-bottom: 15px;
+	}
+}

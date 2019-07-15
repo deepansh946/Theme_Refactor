@@ -1,0 +1,91 @@
+/* Login */
+.normal-login,
+.social-logins {
+	position: relative;
+	padding: 15px 30px !important;
+}
+
+.normal-login:after {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	content: 'OR';
+	width: 30px;
+	height: 30px;
+	right: -15px;
+	top: 50%;
+	border-radius: 50%;
+	background: #fff;
+	color: #a9a9a9;
+}
+
+.normal-login:before {
+	position: absolute;
+	content: '';
+	width: 1px;
+	height: 90%;
+	top: 5%;
+	right: 0;
+	background: rgba(0, 0, 0, 0.1);
+	color: #fff;
+}
+
+.social-logins {
+	display: flex;
+	align-items: center;
+}
+
+/* Social Logins */
+
+.social-logins button {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin: 10px auto;
+}
+
+.social-logins button .fa {
+	left: 2em;
+}
+
+.social-logins > div {
+	width: 100%;
+}
+
+.social-logins button {
+	border: none;
+}
+
+/* Media Query */
+@media screen and (max-width: 768px) {
+	#login {
+		width: 90%;
+		margin: 25px auto;
+	}
+
+	.normal-login,
+	.social-logins {
+		width: 100%;
+		padding: 15px 20px !important;
+	}
+
+	.normal-login:before {
+		top: unset;
+		width: 90%;
+		height: 1px;
+		bottom: 0;
+		left: 5%;
+	}
+
+	.normal-login:after {
+		top: unset;
+		right: unset;
+		left: 50%;
+	}
+
+	.auth-btn {
+		width: 100%;
+		padding: 10px !important;
+	}
+}

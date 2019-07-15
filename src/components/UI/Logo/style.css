@@ -1,0 +1,21 @@
+.layout-topbar-logo {
+	padding-top: 7px !important;
+}
+
+.center-logo {
+	width: 375px;
+	margin: 75px auto 25px !important;
+	display: block;
+}
+
+.center-logo img {
+	width: 100%;
+	height: auto;
+}
+
+@media screen and (max-width: 768px) {
+	.center-logo {
+		width: 255px;
+		margin: 55px auto !important;
+	}
+}

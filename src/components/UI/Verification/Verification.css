@@ -1,0 +1,18 @@
+#verificationForm {
+	width: 500px;
+	padding: 25px;
+}
+
+.action-group {
+	margin: 0 auto;
+}
+
+.action-group button {
+	min-width: 150px;
+	max-width: 150px;
+	padding: 5px;
+}
+
+.action-group button:last-child {
+	margin-left: 10px;
+}

@@ -1,0 +1,19 @@
+.docs h1 {
+    margin-top: 28px;
+    margin-bottom: 14px;
+}
+
+.docs pre {
+    font-family: monospace;
+    background-color: #dee4e9;
+    color: #292B2C;
+    padding: 1em;
+    font-size: 14px;
+    border-radius: 3px;
+    overflow: auto;
+    font-weight: bold;
+}
+
+.docs p {
+    line-height: 1.5;
+}

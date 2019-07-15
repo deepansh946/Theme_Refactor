@@ -1,0 +1,20 @@
+.error-block {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: calc(100vh - 150px);
+}
+
+.error-block h1 {
+	font-size: 7em;
+	font-weight: 800;
+	color: #a9a9a9;
+	margin: 0;
+}
+
+.error-block p {
+	color: rgba(0, 0, 0, 0.6);
+	font-weight: 500;
+}

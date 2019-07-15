@@ -1,0 +1,174 @@
+/*==================== Address Custom Styles =========================== */
+body {
+	font-size: 14px !important;
+}
+
+.address-heading {
+	padding: 0 !important;
+}
+
+.address-heading h3 {
+	margin: 0 !important;
+	margin-top: 10px !important;
+	margin-bottom: 5px !important;
+	text-align: center;
+}
+
+.address-sub-heading {
+	padding: 0px 7px !important;
+}
+
+.address-sub-heading h4 {
+	margin: 0 !important;
+	margin-top: 20px !important;
+}
+
+.address-textarea {
+	width: 100% !important;
+	height: 80px !important;
+}
+
+.address-textarea--container {
+	margin-top: 0px !important;
+	width: 75%;
+	display: inline-block;
+	margin-top: 10px !important;
+	padding-bottom: 0 !important;
+}
+
+.set-to-inline-block {
+	display: inline-block !important;
+}
+
+.remove-padding {
+	padding: 0 !important;
+}
+
+.remove-margin {
+	margin-top: 0 !important;
+}
+
+.move-above-and-right {
+	top: -20% !important;
+	left: 10px !important;
+	width: 150px !important;
+}
+
+.address-parent-container {
+	padding: 0px 10px 0px 10px;
+	border: 1px solid #ccc;
+	margin: 0px -4px;
+}
+
+@media only screen and (max-width: 1127px) {
+	.move-above-and-right {
+	}
+
+	.address-textarea--container {
+		width: 65%;
+	}
+}
+@media only screen and (max-width: 925px) {
+}
+
+@media only screen and (max-width: 768px) {
+	.move-above-and-right {
+		top: -25px !important;
+		left: 0 !important;
+	}
+
+	.expand-width {
+		width: 100% !important;
+	}
+
+	.address-textarea--container {
+		width: 100%;
+	}
+
+	.address-textarea {
+		width: 100% !important;
+		height: 120px !important;
+	}
+}
+
+/* LENGTH OF STAY CONTAINER */
+/* .length-of-stay--container div{
+	top: -30px !important;
+}
+ */
+
+.length-of-stay--container {
+	margin-bottom: -70px;
+}
+.length-of-stay--year {
+	top: -20px !important;
+}
+
+.length-of-stay--month {
+	top: -40px !important;
+	margin-bottom: 20px !important;
+}
+
+.address-options--container {
+	margin-top: -22px !important;
+}
+
+.address-option--extra {
+	/* left: 100px !important;
+	width: 50px !important;
+	top: -70px !important;
+	margin-top: 0 !important; */
+	display: inline-block !important;
+	width: 60px !important;
+	height: 18px !important;
+	margin-left: 10px !important;
+}
+
+.reduce-top-border {
+	margin-top: 8px !important;
+}
+
+.add-top-border {
+	margin-top: 20px !important;
+}
+
+.reduce-top-border--large {
+	margin-top: -35px !important;
+}
+
+.add-padding-3 {
+	padding: 3px !important;
+}
+
+/* ========================================================================
+					Document requirements
+====================================================================*/
+.requirements-table {
+	border: 1px solid black;
+	overflow-x: auto !important;
+	border-collapse: collapse;
+	width: 100%;
+	text-align: left;
+}
+
+@media only screen and (max-width: 500px) {
+	.requirements-table td,
+	.requirements-table th,
+	.table-dropdown {
+		font-size: 12px !important;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.requirements-table td,
+	.requirements-table th,
+	.table-dropdown {
+		font-size: 10px !important;
+	}
+}
+
+.requirements-table th,
+.requirements-table td {
+	padding: 2px;
+	border: 1px solid black;
+}

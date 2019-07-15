@@ -1,0 +1,149 @@
+/* Global Classes */
+.layout-main {
+	position: relative;
+	min-height: 100vh;
+	padding-bottom: 75px;
+}
+
+.d-flex-rev {
+	display: flex;
+	flex-direction: column;
+}
+
+.bgLayer {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	top: 0;
+	background: #8e2de2;
+	background: -webkit-linear-gradient(to right, #4a00e0, #8e2de2);
+	background: linear-gradient(to right, #4a00e0, #8e2de2);
+}
+
+.help-text {
+	color: #898989;
+	text-align: center;
+}
+
+.error-text {
+	color: red;
+	display: inline-block;
+}
+
+body .p-inputtext {
+	font-size: 16px;
+}
+
+/* Header */
+#content-header {
+	background: rgba(0, 0, 0, 0.1);
+	min-height: 75px;
+	display: flex;
+	align-items: center;
+	padding: 0 15px;
+	margin-bottom: 95px;
+}
+
+#content-header .logo img {
+	width: 250px;
+}
+
+#content-header button {
+	margin: 0;
+}
+
+/* Form Styles */
+
+.form-style {
+	background: #fff;
+	width: 650px;
+	margin: 50px auto;
+	border-radius: 0.25em;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-style .p-grid {
+	margin: 0;
+}
+
+.form-style .p-float-label {
+	margin: 0 !important;
+}
+
+/* Footer */
+.layout-footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 75px;
+	padding-left: 25px !important;
+}
+
+#layout-footer-logo {
+	min-height: 38px;
+}
+
+/* Sidebar */
+.pi-home {
+	margin-left: -5px;
+	margin-right: -0.5px !important;
+}
+
+.wrapper {
+	background: #fff;
+	padding: 20px;
+}
+
+/* Calendar */
+.event-calendar {
+	top: 10px !important;
+	left: -200px !important;
+}
+
+.event-calendar:after,
+.event-calendar:before {
+	position: absolute;
+	content: ' ';
+	border: solid transparent;
+	bottom: 100%;
+	height: 0;
+	width: 0;
+	pointer-events: none;
+	left: 210px;
+}
+
+.event-calendar:after {
+	border-color: rgba(244, 244, 249, 0);
+	border-bottom-color: #ffffff;
+	border-width: 9px;
+	margin-left: -1px;
+}
+
+.event-calendar:before {
+	border-color: rgba(216, 216, 220, 0);
+	border-bottom-color: #e0e0e0;
+	border-width: 10px;
+	margin-left: -1px;
+}
+
+/* Text */
+.errorText {
+	color: #ea384d;
+}
+.successText {
+	color: #8b8b90;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 648px) {
+	.layout-wrapper .layout-main .layout-content {
+		padding: 0;
+	}
+
+	.layout-footer {
+		display: flex;
+		justify-content: space-around;
+	}
+}

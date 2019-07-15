@@ -1,0 +1,39 @@
+.inbox .p-button.submit-reply .p-button-text {
+	display: inline-block;
+}
+
+.inbox .p-datatable .p-datatable-thead > tr > th {
+	text-align: left;
+}
+
+.inbox .p-datatable .p-datatable-tbody > tr.p-datatable-row:nth-child(2) {
+	font-weight: bold;
+}
+
+.inbox .p-editor-content {
+	height: 25vh;
+}
+
+/* .inbox .p-datatable .p-datatable-thead > tr > th.subject {
+    width: 32em;
+}
+
+.inbox .p-datatable .p-datatable-thead > tr > th.attachments {
+    width: 8em;
+}
+
+.inbox .p-datatable .p-datatable-thead > tr > th.dateTime {
+    width: 13em;
+} */
+
+@media only screen and (max-width: 900px) {
+	.sent-items--dialog {
+		width: 80% !important;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.sent-items--dialog {
+		width: 95% !important;
+	}
+}
